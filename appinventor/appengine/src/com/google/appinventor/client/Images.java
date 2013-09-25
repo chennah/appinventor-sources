@@ -76,7 +76,7 @@ public interface Images extends Resources {
   *Designer palette item
   */
  @Source("com/google/appinventor/images/logger.png")
- ImageResourc loggerComponent();
+ ImageResource loggerComponent();
 
    /**
     * Designer palette item: accelerometersensor component
