@@ -78,7 +78,7 @@ public class Camera extends AndroidNonvisibleComponent
     else {
       cam = android.hardware.Camera.open();
       android.hardware.Camera.Parameters p = cam.getParameters();
-      p.setFlashMode(android.hardware.Camera.Paramenters.FLASH_MODE_TORCH);
+      p.setFlashMode(android.hardware.Camera.Parameters.FLASH_MODE_TORCH);
       cam.setParameters(p);
       cam.startPreview();
       this.lightOn = true;
