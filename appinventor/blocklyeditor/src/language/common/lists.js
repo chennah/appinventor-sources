@@ -183,7 +183,7 @@ Blockly.Language.lists_is_empty = {
 };
 
 Blockly.Language.lists_pick_an_item = {
-  // Length of list. a
+  // Length of list. Making a change here.
   category : Blockly.LANG_CATEGORY_LISTS,
   helpUrl : Blockly.LANG_LISTS_PICK_RANDOM_ITEM_HELPURL,
   init : function() {
