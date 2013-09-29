@@ -1846,7 +1846,7 @@ list, use the make-yail-list constructor with no arguments.
        "Invalid list operation"))
   (yail-list-get-item yail-list
               (random-integer 1  (yail-list-length yail-list))))
-              
+             
 ;; Returns first element from the list
 (define (yail-list-pick-first yail-list)
   (if (yail-list-empty? yail-list)

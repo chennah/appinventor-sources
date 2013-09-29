@@ -201,7 +201,7 @@ Blockly.Yail.lists_position_in = function() {
 Blockly.Yail.lists_pick_an_item = function() {
   // Pick an item, based on dropdown selection
   var mode = this.getTitleValue('OP');
-  var tuple = Blockly.Yail.math_convert_angles.OPERATORS[mode];
+  var tuple = Blockly.Yail.lists_pick_an_item.OPERATORS[mode];
   var operator1 = tuple[0];
   var operator2 = tuple[1];
   var argument0 = Blockly.Yail.valueToCode(this, 'LIST', Blockly.Yail.ORDER_NONE) || Blockly.Yail.emptyListCode;
@@ -218,7 +218,7 @@ Blockly.Yail.lists_pick_an_item = function() {
 Blockly.Yail.lists_pick_an_item.OPERATORS = {
   RANDOM: ['yail-list-pick-random', 'pick random item'],
   FIRST: ['yail-list-pick-first', 'pick first item'],
-  LAST: ['yail-list-pick-random', 'pick last item']
+  LAST: ['yail-list-pick-last', 'pick last item']
 };
 
 Blockly.Yail.lists_is_empty = function() {
