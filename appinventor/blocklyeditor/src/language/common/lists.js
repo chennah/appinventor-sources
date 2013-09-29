@@ -201,7 +201,7 @@ Blockly.Language.lists_pick_an_item = {
       var mode = thisBlock.getTitleValue('OP');
       return Blockly.Language.lists_pick_an_item.TOOLTIPS[mode];
     });
-    this.appendCollapsedInput().appendTitle('pick')
+    this.appendCollapsedInput()
       .appendTitle(this.getTitleValue('OP'), 'COLLAPSED_TEXT');
   },
   onchange: Blockly.WarningHandler.checkErrors,
