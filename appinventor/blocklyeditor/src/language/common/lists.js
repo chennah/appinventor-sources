@@ -182,7 +182,7 @@ Blockly.Language.lists_is_empty = {
   typeblock: [{ translatedName: Blockly.LANG_LISTS_TITLE_IS_EMPTY }]
 };
 
-Blockly.Language.lists_pick_random_item = {
+Blockly.Language.lists_pick_an_item = {
   // Length of list.
   category : Blockly.LANG_CATEGORY_LISTS,
   helpUrl : Blockly.LANG_LISTS_PICK_RANDOM_ITEM_HELPURL,
