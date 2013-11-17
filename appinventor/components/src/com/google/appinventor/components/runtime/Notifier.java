@@ -68,13 +68,13 @@ public final class Notifier extends AndroidNonvisibleComponent implements Compon
 
   //Length of Notifier message display
   private int notifierLength = Component.TOAST_LENGTH_LONG;
-  
+
   // Notifier background color
   private int backgroundColor = Color.DKGRAY;
-  
+
   // Notifier text color
   private int textColor = Color.WHITE;
-  
+
   /**
    * Creates a new Notifier component.
    *
@@ -256,7 +256,7 @@ public final class Notifier extends AndroidNonvisibleComponent implements Compon
       }
     });
   }
-  
+
   /**
    * Sets the length of time that the Toast is shown -- either "short" or "long".
    *
@@ -268,9 +268,9 @@ public final class Notifier extends AndroidNonvisibleComponent implements Compon
   @SimpleProperty(
       userVisible = false)
   public void NotifierLength(int length){
-  		notifierLength = length;
+    notifierLength = length;
   }
-  
+
   /**
    * Specifies the Toast's background color as an alpha-red-green-blue
    * integer.
@@ -283,8 +283,7 @@ public final class Notifier extends AndroidNonvisibleComponent implements Compon
   public void BackgroundColor(int argb) {
     backgroundColor = argb;
   }
-  
-  
+
   /**
    * Returns the Toast's text color as an alpha-red-green-blue
    * integer.
@@ -309,7 +308,7 @@ public final class Notifier extends AndroidNonvisibleComponent implements Compon
   public void TextColor(int argb) {
     textColor = argb;
   }
-  
+
   // show a toast using a TextView, which allows us to set the
   // font size.  The default toast is too small.
   private void toastNow (String message) {

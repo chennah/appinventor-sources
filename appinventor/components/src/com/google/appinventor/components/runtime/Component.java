@@ -33,6 +33,13 @@ public interface Component {
   static final int ALIGNMENT_OPPOSITE = 2;
 
   /*
+   * Accelerometer sensitivity.
+   */
+  static final int ACCELEROMETER_SENSITIVITY_WEAK = 1;
+  static final int ACCELEROMETER_SENSITIVITY_MODERATE = 2;
+  static final int ACCELEROMETER_SENSITIVITY_STRONG = 3;
+
+  /*
    * Button Styles.
    */
   static final int BUTTON_SHAPE_DEFAULT = 0;
@@ -106,7 +113,7 @@ public interface Component {
    */
   static final int TOAST_LENGTH_SHORT = 0;
   static final int TOAST_LENGTH_LONG = 1;
-  
+
   /*
    * Screen direction constants.
    * Observe that opposite directions have the same magnitude but opposite signs.

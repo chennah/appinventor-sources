@@ -41,6 +41,12 @@ public class PropertyTypeConstants {
   public static final String PROPERTY_TYPE_HORIZONTAL_ALIGNMENT = "horizontal_alignment";
   public static final String PROPERTY_TYPE_VERTICAL_ALIGNMENT = "vertical_alignment";
 
+  /**
+   * Accelerometer sensitivity.
+   * @see
+   * com.google.appinventor.client.editor.youngandroid.properties.YoungAndroidAccelerometerSensitvityChoicePropertyEditor
+   */
+  public static final String PROPERTY_TYPE_ACCELEROMETER_SENSITIVITY = "accelerometer_sensitivity";
 
   /**
    * Button shapes.
@@ -150,7 +156,7 @@ public class PropertyTypeConstants {
    * com.google.appinventor.client.editor.youngandroid.properties.YoungAndroidToastLengthChoicePropertyEditor}.
    */
   public static final String PROPERTY_TYPE_TOAST_LENGTH = "toast_length";
-  
+
   /**
    * Choices of typefaces offered by {@link
    * com.google.appinventor.client.editor.youngandroid.properties.YoungAndroidFontTypefaceChoicePropertyEditor}.
